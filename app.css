@@ -1,9 +1,42 @@
+/* body {
+    background-color: cornflowerblue;
+} */
+
+.articleHeader {
+    text-align: center;
+}
+
+div.container { 
+    text-align: center;
+    padding: 10px 20px;
+}
+
 #circleImage {
     border: 6px solid cornflowerblue;
     border-radius: 20px;
 } 
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+div.polaroid {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
 }
+
+/* resize images */
+.polaroid img {
+    width: 450px; 
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
