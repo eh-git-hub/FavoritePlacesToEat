@@ -1,9 +1,29 @@
-/* body {
-    background-color: cornflowerblue;
-} */
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #eeeeee; */
+    /* background-color: #f2f2f2;
+    background-color: #f5f5f5; */
+    background-color: #fafafa;
+}
 
 .articleHeader {
     text-align: center;
+}
+
+#restHeader{
+    text-align: center;
+}
+
+div.list{
+    width: 300px;
+    position: fixed;
+    right: 0;
+    top: 117px;
+    border-style: groove;
+}
+
+.dollarAmount{
+    margin-top: -20px;
 }
 
 div.container { 
@@ -11,10 +31,6 @@ div.container {
     padding: 10px 20px;
 }
 
-#circleImage {
-    border: 6px solid cornflowerblue;
-    border-radius: 20px;
-} 
 
 div.polaroid {
     max-width: 100%;
@@ -34,9 +50,6 @@ div.polaroid {
 }
 
 
-/* div.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  }
+#circleImage {
+border-radius: 20px;
+} 
