@@ -30,10 +30,14 @@ div.container {
 
 
 div.polaroid {
-    max-width: 100%;
+    margin: auto;
+    max-width: 35.4%;
     height: auto;
     text-align: center;
-    padding: 10px 20px;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    padding-left: 2px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
@@ -43,10 +47,4 @@ div.polaroid {
 .polaroid img {
     width: 450px; 
     height: auto;
-    border-radius: 20px;
 }
-
-
-#circleImage {
-border-radius: 20px;
-} 
