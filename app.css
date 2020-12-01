@@ -1,3 +1,8 @@
+.main {
+    width: 1000px;
+    margin: auto;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fafafa;
@@ -35,7 +40,7 @@ div.polaroid {
     height: auto;
     text-align: center;
     padding-top: 2px;
-    padding-right: 4px;
+    padding-right: 2px;
     padding-bottom: 5px;
     padding-left: 2px;
     background-color: white;
@@ -45,6 +50,6 @@ div.polaroid {
 
 /* resize images */
 .polaroid img {
-    width: 450px; 
+    width: 100%; 
     height: auto;
 }
