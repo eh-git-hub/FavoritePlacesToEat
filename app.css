@@ -1,6 +1,10 @@
 .main {
-    width: 1000px;
-    margin: auto;
+    width: 600px;
+    /* margin: auto; */
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 100px;
 }
 
 body {
@@ -22,6 +26,8 @@ div.list{
     right: 0;
     top: 117px;
     border-style: groove;
+    background: white;
+    margin-right: 20px;
 }
 
 .dollarAmount{
@@ -36,7 +42,7 @@ div.container {
 
 div.polaroid {
     margin: auto;
-    max-width: 35.4%;
+    max-width: 100%;
     height: auto;
     text-align: center;
     padding-top: 2px;
